@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement>
+        <ui:Label text="Name Point" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; font-size: 14px;" />
+        <ui:Label text="Some name for you" display-tooltip-when-elided="true" name="PointName" style="-unity-text-align: upper-center; font-size: 20px; color: rgb(245, 240, 13);" />
+    </ui:VisualElement>
+    <uie:Vector3Field label="Position Point" focusable="true" name="Position" style="visibility: visible; overflow: visible;" />
+    <ui:Button text="Mathf.Abs all axis" display-tooltip-when-elided="true" name="AbsPosition" />
+</ui:UXML>

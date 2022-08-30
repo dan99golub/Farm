@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a3cdf814daa4e469cba15076ca4d19c, type: 3}
+  m_Name: 1. 7
+  m_EditorClassIdentifier: 
+  _GUID: 6e4450ab-6ae2-47a5-a6cd-6f705e33f22f
+  Field: {fileID: 8750727818107041438, guid: 859237edbe008e847bed32200e5d56af, type: 3}
+  StartPosition: {x: 15, y: 0}
+  Ground: {fileID: 8356864139408360576, guid: 8ff96c95c485bef41a8084087987783a, type: 3}
+  BorderOnPathPlayer: {fileID: 4644947928010735172, guid: e2604d5096fc71845a891ddb9dea8d09,
+    type: 3}
+  Green: {fileID: 8356864139408360576, guid: f4a143c0d3c4110438e1ed7b99019111, type: 3}
+  CageFoundament: {fileID: 8356864139408360576, guid: 7ffc2dfe0cb8efc4db089e6274ecacfa,
+    type: 3}
+  TargetProgress: 0.8
+  Award: 150

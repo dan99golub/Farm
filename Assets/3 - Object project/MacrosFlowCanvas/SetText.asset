@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 625114ef92abc6f4d98f906588e93662, type: 3}
+  m_Name: SetText
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"type":"FlowCanvas.Macros.Macro","nodes":[{"_position":{"x":-40.0,"y":240.0},"$type":"FlowCanvas.Macros.MacroInputNode","$id":"0"},{"_method":{"_baseInfo":"MaoUtility.Converse.Core.ConversePanel|GetCast|MaoUtility.Converse.Core.Components.TextView","_paramsInfo":"","_genericArgumentsInfo":"MaoUtility.Converse.Core.Components.TextView"},"_position":{"x":120.0,"y":380.0},"$type":"FlowCanvas.Nodes.ReflectedMethodNodeWrapper","$id":"1"},{"_field":{"_baseInfo":"MaoUtility.Converse.Core.Components.TextView|Duration"},"accessMode":1,"_position":{"x":360.0,"y":240.0},"$type":"FlowCanvas.Nodes.ReflectedFieldNodeWrapper","$version":1,"$id":"2"},{"_method":{"_baseInfo":"MaoUtility.Converse.Core.Components.TextView|SetText|System.Void","_paramsInfo":"System.String"},"_callable":true,"_position":{"x":560.0,"y":280.0},"$type":"FlowCanvas.Nodes.ReflectedMethodNodeWrapper","$id":"3"},{"_position":{"x":780.0,"y":280.0},"$type":"FlowCanvas.Macros.MacroOutputNode","$id":"4"}],"connections":[{"_sourcePortName":"1ccf0bb9-96e8-4913-a55d-76fdc8547e06","_targetPortName":"ConversePanel","_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"FlowCanvas.BinderConnection`1[[MaoUtility.Converse.Core.ConversePanel,
+    Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},{"_sourcePortName":"354df231-0ac5-472d-ada0-7ee94553ea32","_targetPortName":"targetText","_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"3"},"$type":"FlowCanvas.BinderConnection`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},{"_sourcePortName":"436c47ef-c335-4830-8159-484dfbd016cf","_targetPortName":"Value","_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"2","$version":1},"$type":"FlowCanvas.BinderConnection`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},{"_sourcePortName":"9cbfca41-6c7a-4a7d-bd03-ed9ae01103c4","_targetPortName":"
+    ","_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"2","$version":1},"$type":"FlowCanvas.BinderConnection"},{"_sourcePortName":"Value","_targetPortName":"TextView","_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2","$version":1},"$type":"FlowCanvas.BinderConnection`1[[MaoUtility.Converse.Core.Components.TextView,
+    Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},{"_sourcePortName":"
+    ","_targetPortName":" ","_sourceNode":{"$ref":"2","$version":1},"_targetNode":{"$ref":"3"},"$type":"FlowCanvas.BinderConnection"},{"_sourcePortName":"TextView","_targetPortName":"TextView","_sourceNode":{"$ref":"2","$version":1},"_targetNode":{"$ref":"3"},"$type":"FlowCanvas.BinderConnection`1[[MaoUtility.Converse.Core.Components.TextView,
+    Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},{"_sourcePortName":"
+    ","_targetPortName":"ccb26938-8698-451f-865b-ef314abba16d","_sourceNode":{"$ref":"3"},"_targetNode":{"$ref":"4"},"$type":"FlowCanvas.BinderConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{}},"derivedData":{"inputDefinitions":[{"_ID":"9cbfca41-6c7a-4a7d-bd03-ed9ae01103c4","_name":"Flow
+    Input","_type":"FlowCanvas.Flow"},{"_ID":"436c47ef-c335-4830-8159-484dfbd016cf","_name":"Duration","_type":"System.Single"},{"_ID":"1ccf0bb9-96e8-4913-a55d-76fdc8547e06","_name":"Panel","_type":"MaoUtility.Converse.Core.ConversePanel"},{"_ID":"354df231-0ac5-472d-ada0-7ee94553ea32","_name":"Text","_type":"System.String"}],"outputDefinitions":[{"_ID":"ccb26938-8698-451f-865b-ef314abba16d","_name":"Flow
+    Output","_type":"FlowCanvas.Flow"}],"$type":"FlowCanvas.Macros.Macro+DerivedSerializationData"}}'
+  _objectReferences: []
+  _graphSource:
+    _version: 3.25
+    _category: 
+    _comments: 
+    _translation: {x: 67, y: 100}
+    _zoomFactor: 1
+  _haltSerialization: 0
+  inputDefinitions:
+  - _ID: 9cbfca41-6c7a-4a7d-bd03-ed9ae01103c4
+    _name: Flow Input
+    _type: FlowCanvas.Flow
+  - _ID: 436c47ef-c335-4830-8159-484dfbd016cf
+    _name: Duration
+    _type: System.Single
+  - _ID: 1ccf0bb9-96e8-4913-a55d-76fdc8547e06
+    _name: Panel
+    _type: MaoUtility.Converse.Core.ConversePanel
+  - _ID: 354df231-0ac5-472d-ada0-7ee94553ea32
+    _name: Text
+    _type: System.String
+  outputDefinitions:
+  - _ID: ccb26938-8698-451f-865b-ef314abba16d
+    _name: Flow Output
+    _type: FlowCanvas.Flow

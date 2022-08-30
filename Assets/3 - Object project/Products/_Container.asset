@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b43225e9ddc243588b88ca279d17bee5, type: 3}
+  m_Name: _Container
+  m_EditorClassIdentifier: 
+  DefaultPointLevel: {fileID: 11400000, guid: 10d765fea05a98345bccb9706fb88a4a, type: 2}
+  _players:
+  - {fileID: 11400000, guid: 06cea48117eb0cd4c8a37e597d1cea05, type: 2}
+  - {fileID: 11400000, guid: 64d88a9cbe1e1bd4b965c9797943ec0c, type: 2}
+  - {fileID: 11400000, guid: 0edbb2617df95bb4fbe9354680a5e812, type: 2}
+  _pointLevels:
+  - {fileID: 11400000, guid: 10d765fea05a98345bccb9706fb88a4a, type: 2}
+  - {fileID: 11400000, guid: a8cb3b86d14345b469c576ab8e92c73b, type: 2}
+  - {fileID: 11400000, guid: fb77237994c21e541851517f11afeb8b, type: 2}

@@ -1,0 +1,375 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc8d1afc8e654e088079940a3b822f88, type: 3}
+  m_Name: DirtyRule
+  m_EditorClassIdentifier: 
+  _datas:
+  - Rules:
+    - UL: 0
+      ML: 1
+      DL: 1
+      UC: 0
+      MC: 0
+      DC: 1
+      UR: 0
+      MR: 0
+      DR: 0
+    - UL: 1
+      ML: 1
+      DL: 1
+      UC: 0
+      MC: 0
+      DC: 1
+      UR: 0
+      MR: 0
+      DR: 1
+    - UL: 0
+      ML: 1
+      DL: 1
+      UC: 0
+      MC: 0
+      DC: 1
+      UR: 0
+      MR: 0
+      DR: 1
+    - UL: 1
+      ML: 1
+      DL: 1
+      UC: 0
+      MC: 0
+      DC: 1
+      UR: 0
+      MR: 0
+      DR: 0
+    Mat: {fileID: 2100000, guid: f36ca62cee82fa149bf6f30f876a8e0a, type: 2}
+    Text: {fileID: 2800000, guid: 6f97559073d2e574e8a91a9308fa55c8, type: 3}
+  - Rules:
+    - UL: 1
+      ML: 1
+      DL: 0
+      UC: 1
+      MC: 0
+      DC: 0
+      UR: 0
+      MR: 0
+      DR: 0
+    - UL: 1
+      ML: 1
+      DL: 1
+      UC: 1
+      MC: 0
+      DC: 0
+      UR: 1
+      MR: 0
+      DR: 0
+    - UL: 1
+      ML: 1
+      DL: 0
+      UC: 1
+      MC: 0
+      DC: 0
+      UR: 1
+      MR: 0
+      DR: 0
+    - UL: 1
+      ML: 1
+      DL: 1
+      UC: 1
+      MC: 0
+      DC: 0
+      UR: 0
+      MR: 0
+      DR: 0
+    Mat: {fileID: 2100000, guid: 798186b0a6f61b5458888cc2f974fec7, type: 2}
+    Text: {fileID: 2800000, guid: 46994d17b5dc1c8449c5e96f3e29f548, type: 3}
+  - Rules:
+    - UL: 0
+      ML: 0
+      DL: 0
+      UC: 0
+      MC: 0
+      DC: 1
+      UR: 0
+      MR: 1
+      DR: 1
+    - UL: 0
+      ML: 0
+      DL: 1
+      UC: 0
+      MC: 0
+      DC: 1
+      UR: 1
+      MR: 1
+      DR: 1
+    - UL: 0
+      ML: 0
+      DL: 1
+      UC: 0
+      MC: 0
+      DC: 1
+      UR: 0
+      MR: 1
+      DR: 1
+    - UL: 0
+      ML: 0
+      DL: 0
+      UC: 0
+      MC: 0
+      DC: 1
+      UR: 1
+      MR: 1
+      DR: 1
+    Mat: {fileID: 2100000, guid: ac96f90ad5f068b4f9f651e2dad80600, type: 2}
+    Text: {fileID: 2800000, guid: 3d3275c5e324eea4cb8abdf93999d4a2, type: 3}
+  - Rules:
+    - UL: 0
+      ML: 0
+      DL: 0
+      UC: 1
+      MC: 0
+      DC: 0
+      UR: 1
+      MR: 1
+      DR: 0
+    - UL: 1
+      ML: 0
+      DL: 0
+      UC: 1
+      MC: 0
+      DC: 0
+      UR: 1
+      MR: 1
+      DR: 1
+    - UL: 1
+      ML: 0
+      DL: 0
+      UC: 1
+      MC: 0
+      DC: 0
+      UR: 1
+      MR: 1
+      DR: 0
+    - UL: 0
+      ML: 0
+      DL: 0
+      UC: 1
+      MC: 0
+      DC: 0
+      UR: 1
+      MR: 1
+      DR: 1
+    Mat: {fileID: 2100000, guid: 3e39ed9a8018f5d4bb9b4c5e7713296e, type: 2}
+    Text: {fileID: 2800000, guid: bd439ecf93f510248928deae3f2ceea5, type: 3}
+  - Rules:
+    - UL: 0
+      ML: 0
+      DL: 0
+      UC: 0
+      MC: 0
+      DC: 1
+      UR: 0
+      MR: 0
+      DR: 0
+    - UL: 0
+      ML: 0
+      DL: 0
+      UC: 0
+      MC: 0
+      DC: 1
+      UR: 0
+      MR: 0
+      DR: 1
+    - UL: 0
+      ML: 0
+      DL: 1
+      UC: 0
+      MC: 0
+      DC: 1
+      UR: 0
+      MR: 0
+      DR: 0
+    - UL: 0
+      ML: 0
+      DL: 1
+      UC: 0
+      MC: 0
+      DC: 1
+      UR: 0
+      MR: 0
+      DR: 1
+    Mat: {fileID: 2100000, guid: 73e5becd855ee46408380d262572425a, type: 2}
+    Text: {fileID: 2800000, guid: a4a7e2f91ebae5f479b638854beffd34, type: 3}
+  - Rules:
+    - UL: 0
+      ML: 1
+      DL: 0
+      UC: 0
+      MC: 0
+      DC: 0
+      UR: 0
+      MR: 0
+      DR: 0
+    - UL: 1
+      ML: 1
+      DL: 0
+      UC: 0
+      MC: 0
+      DC: 0
+      UR: 0
+      MR: 0
+      DR: 0
+    - UL: 0
+      ML: 1
+      DL: 1
+      UC: 0
+      MC: 0
+      DC: 0
+      UR: 0
+      MR: 0
+      DR: 0
+    - UL: 1
+      ML: 1
+      DL: 1
+      UC: 0
+      MC: 0
+      DC: 0
+      UR: 0
+      MR: 0
+      DR: 0
+    Mat: {fileID: 2100000, guid: 4f86e071a6b6270449e8a2e9b7933cec, type: 2}
+    Text: {fileID: 2800000, guid: 5934f28acc1a01540ae0169a09e4e565, type: 3}
+  - Rules:
+    - UL: 0
+      ML: 0
+      DL: 0
+      UC: 0
+      MC: 0
+      DC: 0
+      UR: 0
+      MR: 1
+      DR: 0
+    - UL: 0
+      ML: 0
+      DL: 0
+      UC: 0
+      MC: 0
+      DC: 0
+      UR: 1
+      MR: 1
+      DR: 0
+    - UL: 0
+      ML: 0
+      DL: 0
+      UC: 0
+      MC: 0
+      DC: 0
+      UR: 0
+      MR: 1
+      DR: 1
+    - UL: 0
+      ML: 0
+      DL: 0
+      UC: 0
+      MC: 0
+      DC: 0
+      UR: 1
+      MR: 1
+      DR: 1
+    Mat: {fileID: 2100000, guid: cfe2beb5348ebc04f9c42be1fa90df3a, type: 2}
+    Text: {fileID: 2800000, guid: f8c6130acb595a74f98b338dff2f8c30, type: 3}
+  - Rules:
+    - UL: 0
+      ML: 0
+      DL: 0
+      UC: 1
+      MC: 0
+      DC: 0
+      UR: 0
+      MR: 0
+      DR: 0
+    - UL: 1
+      ML: 0
+      DL: 0
+      UC: 1
+      MC: 0
+      DC: 0
+      UR: 0
+      MR: 0
+      DR: 0
+    - UL: 0
+      ML: 0
+      DL: 0
+      UC: 1
+      MC: 0
+      DC: 0
+      UR: 1
+      MR: 0
+      DR: 0
+    - UL: 1
+      ML: 0
+      DL: 0
+      UC: 1
+      MC: 0
+      DC: 0
+      UR: 1
+      MR: 0
+      DR: 0
+    Mat: {fileID: 2100000, guid: 80e694a42674cb3498dbe05d731463a4, type: 2}
+    Text: {fileID: 2800000, guid: 85b3251cb931af243a61005a1cc829e8, type: 3}
+  - Rules:
+    - UL: 0
+      ML: 0
+      DL: 1
+      UC: 0
+      MC: 0
+      DC: 0
+      UR: 0
+      MR: 0
+      DR: 0
+    Mat: {fileID: 2100000, guid: 1559aaa6780abde48985e302e5c29e83, type: 2}
+    Text: {fileID: 2800000, guid: 88445ca052f73e34f9b52d7535835ca5, type: 3}
+  - Rules:
+    - UL: 0
+      ML: 0
+      DL: 0
+      UC: 0
+      MC: 0
+      DC: 0
+      UR: 0
+      MR: 0
+      DR: 1
+    Mat: {fileID: 2100000, guid: 3571e319b0dc94d42a0be20457c1cbf8, type: 2}
+    Text: {fileID: 2800000, guid: 27c4162389c00524783a81b3b5cfea85, type: 3}
+  - Rules:
+    - UL: 1
+      ML: 0
+      DL: 0
+      UC: 0
+      MC: 0
+      DC: 0
+      UR: 0
+      MR: 0
+      DR: 0
+    Mat: {fileID: 2100000, guid: 571f8a737cbc40143a41596a77e169a7, type: 2}
+    Text: {fileID: 2800000, guid: daaf114c2d6f05042807dec478f9b126, type: 3}
+  - Rules:
+    - UL: 0
+      ML: 0
+      DL: 0
+      UC: 0
+      MC: 0
+      DC: 0
+      UR: 1
+      MR: 0
+      DR: 0
+    Mat: {fileID: 2100000, guid: cbdbb43c41c8ba24da5fe225fcbb0d3a, type: 2}
+    Text: {fileID: 2800000, guid: 931ff8bddac2404488a9d0c9d300fc03, type: 3}

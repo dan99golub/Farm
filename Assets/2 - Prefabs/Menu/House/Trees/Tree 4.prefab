@@ -1,0 +1,472 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &214581626718710931
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3161839886358699015}
+  - component: {fileID: 1152626523754858159}
+  m_Layer: 0
+  m_Name: '[Instance]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3161839886358699015
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214581626718710931}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6096022534066901226}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1152626523754858159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214581626718710931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c3743f87cdad34cb0664788fffb8d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimancerComponent: {fileID: 5152514204693205012}
+  Layer: 0
+  Clip:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 0}
+    _Speed: 1
+    _NormalizedStartTime: 0.99
+  OnStart:
+    _PersistentCalls: []
+  OnEnd:
+    _PersistentCalls: []
+  OnStop:
+    _PersistentCalls: []
+--- !u!1 &5137862723695281638
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7598452155189072126}
+  - component: {fileID: 8536198120664556654}
+  - component: {fileID: 5152514204693205012}
+  m_Layer: 0
+  m_Name: Model
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7598452155189072126
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5137862723695281638}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4535568399044891466}
+  m_Father: {fileID: 6096022534066901226}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &8536198120664556654
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5137862723695281638}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: aa6eed2278361d4479e646a9279d5a81, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5152514204693205012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5137862723695281638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad50f81b1d25c441943c37a89ba23f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Animator: {fileID: 8536198120664556654}
+  _ActionOnDisable: 0
+--- !u!1 &5241322140283921859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9050086392004871165}
+  - component: {fileID: 7623082175150812510}
+  - component: {fileID: 5238304891013157771}
+  m_Layer: 0
+  m_Name: '[Build]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9050086392004871165
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5241322140283921859}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6096022534066901226}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7623082175150812510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5241322140283921859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c3743f87cdad34cb0664788fffb8d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimancerComponent: {fileID: 5152514204693205012}
+  Layer: 0
+  Clip:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 0}
+    _Speed: 1
+    _NormalizedStartTime: 0
+  OnStart:
+    _PersistentCalls:
+    - _Target: {fileID: 5238304891013157771}
+      _MethodName: Randomaize
+      _PersistentArguments: []
+  OnEnd:
+    _PersistentCalls: []
+  OnStop:
+    _PersistentCalls: []
+--- !u!114 &5238304891013157771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5241322140283921859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15d10ad516e638448e489acd7dda1d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Acts:
+  - id: 0
+  ClipTransition: {fileID: 7623082175150812510}
+  references:
+    version: 1
+    00000000:
+      type: {class: RandomizeAnimation/SetRandomSpeed, ns: DefaultNamespace.AnimScripts,
+        asm: Assembly-CSharp}
+      data:
+        _min: 0.5
+        _max: 1.2
+--- !u!1 &9033652362171310044
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6096022534066901226}
+  - component: {fileID: 7833206250832659453}
+  - component: {fileID: 6414882226585362998}
+  m_Layer: 0
+  m_Name: Tree 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6096022534066901226
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9033652362171310044}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7598452155189072126}
+  - {fileID: 3161839886358699015}
+  - {fileID: 9050086392004871165}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7833206250832659453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9033652362171310044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8846982482b2451b8d66c8846403b872, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BuildIdAction: Build
+  InstanceBuildIdAction: InstanceBuild
+  HideIdAction: Hide
+  House: {fileID: 6414882226585362998}
+  Clips:
+  - {fileID: 7400000, guid: ab4e0816122eb7a4b890badc8228d152, type: 2}
+  SelectedClip:
+    _PersistentCalls:
+    - _Target: {fileID: 1152626523754858159}
+      _MethodName: set_ClipProp
+      _PersistentArguments:
+      - _Type: 14
+        _Int: 0
+        _String: UnityEngine.AnimationClip, UnityEngine.AnimationModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+    - _Target: {fileID: 7623082175150812510}
+      _MethodName: set_ClipProp
+      _PersistentArguments:
+      - _Type: 14
+        _Int: 0
+        _String: UnityEngine.AnimationClip, UnityEngine.AnimationModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+--- !u!114 &6414882226585362998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9033652362171310044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b150efc8a05a412da6954d5092261bf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isOn: 0
+  _updateOnStart: 0
+  _on:
+    Name: 
+    LeanAnim:
+      speed: -1
+      roots: []
+      aliases: []
+      targets: []
+      entries:
+      - root: {fileID: 0}
+        speed: -1
+        aliases: []
+    Event:
+      _PersistentCalls: []
+  _off:
+    Name: 
+    LeanAnim:
+      speed: -1
+      roots: []
+      aliases: []
+      targets: []
+      entries:
+      - root: {fileID: 0}
+        speed: -1
+        aliases: []
+    Event:
+      _PersistentCalls: []
+  _actions:
+  - Name: Build
+    LeanAnim:
+      speed: -1
+      roots: []
+      aliases: []
+      targets: []
+      entries:
+      - root: {fileID: 0}
+        speed: -1
+        aliases: []
+    Event:
+      _PersistentCalls:
+      - _Target: {fileID: 5137862723695281638}
+        _MethodName: SetActive
+        _PersistentArguments:
+        - _Type: 1
+          _Int: 1
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 7623082175150812510}
+        _MethodName: Play
+        _PersistentArguments: []
+  - Name: InstanceBuild
+    LeanAnim:
+      speed: -1
+      roots: []
+      aliases: []
+      targets: []
+      entries:
+      - root: {fileID: 0}
+        speed: -1
+        aliases: []
+    Event:
+      _PersistentCalls:
+      - _Target: {fileID: 5137862723695281638}
+        _MethodName: SetActive
+        _PersistentArguments:
+        - _Type: 1
+          _Int: 1
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 1152626523754858159}
+        _MethodName: Play
+        _PersistentArguments: []
+  - Name: Hide
+    LeanAnim:
+      speed: -1
+      roots: []
+      aliases: []
+      targets: []
+      entries:
+      - root: {fileID: 0}
+        speed: -1
+        aliases: []
+    Event:
+      _PersistentCalls:
+      - _Target: {fileID: 5137862723695281638}
+        _MethodName: SetActive
+        _PersistentArguments:
+        - _Type: 1
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+--- !u!1001 &4531002011202428056
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7598452155189072126}
+    m_Modifications:
+    - target: {fileID: 1426313027919166, guid: 96b8474ee840da043b0c11630a0c2f73, type: 3}
+      propertyPath: m_Name
+      value: SmallTreeRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 4724872144211922, guid: 96b8474ee840da043b0c11630a0c2f73, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4724872144211922, guid: 96b8474ee840da043b0c11630a0c2f73, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4724872144211922, guid: 96b8474ee840da043b0c11630a0c2f73, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4724872144211922, guid: 96b8474ee840da043b0c11630a0c2f73, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4724872144211922, guid: 96b8474ee840da043b0c11630a0c2f73, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4724872144211922, guid: 96b8474ee840da043b0c11630a0c2f73, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4724872144211922, guid: 96b8474ee840da043b0c11630a0c2f73, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23627963146986018, guid: 96b8474ee840da043b0c11630a0c2f73,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6604156e9828a6641a74680b4b30ac8f, type: 2}
+    - target: {fileID: 23627963146986018, guid: 96b8474ee840da043b0c11630a0c2f73,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: f2ff10cd94c09ff4f8586f90a96d7ffc, type: 2}
+    - target: {fileID: 23627963146986018, guid: 96b8474ee840da043b0c11630a0c2f73,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 416f9f0298122c746abb5ebc5e2de424, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 96b8474ee840da043b0c11630a0c2f73, type: 3}
+--- !u!4 &4535568399044891466 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4724872144211922, guid: 96b8474ee840da043b0c11630a0c2f73,
+    type: 3}
+  m_PrefabInstance: {fileID: 4531002011202428056}
+  m_PrefabAsset: {fileID: 0}

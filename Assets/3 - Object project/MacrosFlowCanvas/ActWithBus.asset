@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 625114ef92abc6f4d98f906588e93662, type: 3}
+  m_Name: ActWithBus
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"type":"FlowCanvas.Macros.Macro","nodes":[{"_position":{"x":-100.0,"y":400.0},"$type":"FlowCanvas.Macros.MacroInputNode","$id":"0"},{"_method":{"_baseInfo":"MaoUtility.Converse.Core.ConversePanel|GetCast|MaoUtility.Converse.Core.Components.EventBus","_paramsInfo":"","_genericArgumentsInfo":"MaoUtility.Converse.Core.Components.EventBus"},"_position":{"x":300.0,"y":480.0},"$type":"FlowCanvas.Nodes.ReflectedMethodNodeWrapper","$id":"1"},{"_method":{"_baseInfo":"MaoUtility.Converse.Core.Components.EventBus|Sub|System.Void","_paramsInfo":"System.String|System.Action"},"_callable":true,"_position":{"x":580.0,"y":360.0},"$type":"FlowCanvas.Nodes.ReflectedMethodNodeWrapper","$id":"2"},{"_portCount":2,"_position":{"x":740.0,"y":460.0},"$type":"FlowCanvas.Nodes.Merge","$id":"3"},{"_position":{"x":900.0,"y":460.0},"$type":"FlowCanvas.Macros.MacroOutputNode","$id":"4"},{"_method":{"_baseInfo":"MaoUtility.Converse.Core.Components.EventBus|Unsub|System.Void","_paramsInfo":"System.String|System.Action"},"_callable":true,"_position":{"x":580.0,"y":540.0},"$type":"FlowCanvas.Nodes.ReflectedMethodNodeWrapper","$id":"5"},{"_position":{"x":300.0,"y":240.0},"$type":"FlowCanvas.Nodes.SwitchBool","$id":"6"}],"connections":[{"_sourcePortName":"39555495-10fc-466b-b4f0-8928f0816928","_targetPortName":"ConversePanel","_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"FlowCanvas.BinderConnection`1[[MaoUtility.Converse.Core.ConversePanel,
+    Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},{"_sourcePortName":"744ed645-4f0e-451d-841c-3ca9a8434344","_targetPortName":"Condition","_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"6"},"$type":"FlowCanvas.BinderConnection`1[[System.Boolean,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},{"_sourcePortName":"aa9ac149-1a2b-48bf-a2e0-3b175fa881aa","_targetPortName":"In","_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"6"},"$type":"FlowCanvas.BinderConnection"},{"_sourcePortName":"5ed9cbb0-37e2-45e2-b784-eced3412c223","_targetPortName":"callback","_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"2"},"$type":"FlowCanvas.BinderConnection`1[[System.Action,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},{"_sourcePortName":"5ed9cbb0-37e2-45e2-b784-eced3412c223","_targetPortName":"callback","_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"5"},"$type":"FlowCanvas.BinderConnection`1[[System.Action,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},{"_sourcePortName":"8da62f5a-2b26-457b-9f8b-ae3766c1279a","_targetPortName":"nameEvent","_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"5"},"$type":"FlowCanvas.BinderConnection`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},{"_sourcePortName":"8da62f5a-2b26-457b-9f8b-ae3766c1279a","_targetPortName":"nameEvent","_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"2"},"$type":"FlowCanvas.BinderConnection`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},{"_sourcePortName":"Value","_targetPortName":"EventBus","_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"FlowCanvas.BinderConnection`1[[MaoUtility.Converse.Core.Components.EventBus,
+    Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},{"_sourcePortName":"Value","_targetPortName":"EventBus","_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"5"},"$type":"FlowCanvas.BinderConnection`1[[MaoUtility.Converse.Core.Components.EventBus,
+    Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},{"_sourcePortName":"
+    ","_targetPortName":"0","_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"3"},"$type":"FlowCanvas.BinderConnection"},{"_sourcePortName":"Out","_targetPortName":"47b62fe1-558b-42da-a3e5-074bda415344","_sourceNode":{"$ref":"3"},"_targetNode":{"$ref":"4"},"$type":"FlowCanvas.BinderConnection"},{"_sourcePortName":"
+    ","_targetPortName":"1","_sourceNode":{"$ref":"5"},"_targetNode":{"$ref":"3"},"$type":"FlowCanvas.BinderConnection"},{"_sourcePortName":"True","_targetPortName":"
+    ","_sourceNode":{"$ref":"6"},"_targetNode":{"$ref":"2"},"$type":"FlowCanvas.BinderConnection"},{"_sourcePortName":"False","_targetPortName":"
+    ","_sourceNode":{"$ref":"6"},"_targetNode":{"$ref":"5"},"$type":"FlowCanvas.BinderConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{}},"derivedData":{"inputDefinitions":[{"_ID":"aa9ac149-1a2b-48bf-a2e0-3b175fa881aa","_name":"Flow
+    Input","_type":"FlowCanvas.Flow"},{"_ID":"8da62f5a-2b26-457b-9f8b-ae3766c1279a","_name":"NameEvent","_type":"System.String"},{"_ID":"39555495-10fc-466b-b4f0-8928f0816928","_name":"ConversePanel
+    Input","_type":"MaoUtility.Converse.Core.ConversePanel"},{"_ID":"744ed645-4f0e-451d-841c-3ca9a8434344","_name":"IsSub","_type":"System.Boolean"},{"_ID":"5ed9cbb0-37e2-45e2-b784-eced3412c223","_name":"Callback","_type":"System.Action"}],"outputDefinitions":[{"_ID":"47b62fe1-558b-42da-a3e5-074bda415344","_name":"Flow
+    Output","_type":"FlowCanvas.Flow"}],"$type":"FlowCanvas.Macros.Macro+DerivedSerializationData"}}'
+  _objectReferences: []
+  _graphSource:
+    _version: 3.25
+    _category: 
+    _comments: 
+    _translation: {x: 230, y: 99}
+    _zoomFactor: 1
+  _haltSerialization: 0
+  inputDefinitions:
+  - _ID: aa9ac149-1a2b-48bf-a2e0-3b175fa881aa
+    _name: Flow Input
+    _type: FlowCanvas.Flow
+  - _ID: 8da62f5a-2b26-457b-9f8b-ae3766c1279a
+    _name: NameEvent
+    _type: System.String
+  - _ID: 39555495-10fc-466b-b4f0-8928f0816928
+    _name: ConversePanel Input
+    _type: MaoUtility.Converse.Core.ConversePanel
+  - _ID: 744ed645-4f0e-451d-841c-3ca9a8434344
+    _name: IsSub
+    _type: System.Boolean
+  - _ID: 5ed9cbb0-37e2-45e2-b784-eced3412c223
+    _name: Callback
+    _type: System.Action
+  outputDefinitions:
+  - _ID: 47b62fe1-558b-42da-a3e5-074bda415344
+    _name: Flow Output
+    _type: FlowCanvas.Flow

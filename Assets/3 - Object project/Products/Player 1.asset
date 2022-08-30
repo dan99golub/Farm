@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91eb2b6a6c9441c48f13c8500d944144, type: 3}
+  m_Name: Player 1
+  m_EditorClassIdentifier: 
+  Content: {fileID: 8417192355520572220, guid: 9036e4182eeafb743ab23cc4c431b274, type: 3}
+  Icon: {fileID: 21300000, guid: f5cee2a87b0ded146a829c5cb707dc49, type: 3}
+  NameContent: Farmer 1
+  Cost: 0
+  GUID: b8d61a4a-71ce-443f-af95-f24e0c69bc29

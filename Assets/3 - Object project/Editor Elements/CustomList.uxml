@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="VisualElement" style="background-color: rgb(101, 77, 77); padding-left: 4px; padding-right: 4px; padding-top: 4px; padding-bottom: 4px; position: relative;">
+        <ui:Label text="Mesh Renders prefabs" display-tooltip-when-elided="true" name="Name" style="font-size: 18px; color: rgb(228, 233, 87);" />
+        <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" focusable="true" mode="Horizontal" name="Content" style="flex-direction: row; flex-wrap: wrap; align-items: stretch; flex-grow: 0; height: auto; flex-shrink: 1; justify-content: flex-end;" />
+    </ui:VisualElement>
+</ui:UXML>

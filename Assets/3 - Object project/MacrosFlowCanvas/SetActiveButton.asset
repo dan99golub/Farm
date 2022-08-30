@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 625114ef92abc6f4d98f906588e93662, type: 3}
+  m_Name: SetActiveButton
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"type":"FlowCanvas.Macros.Macro","nodes":[{"_position":{"x":120.0,"y":260.0},"$type":"FlowCanvas.Macros.MacroInputNode","$id":"0"},{"_inputPortValues":{"True":{"$content":"OnI","$type":"System.String"},"False":{"$content":"OffI","$type":"System.String"}},"_position":{"x":320.0,"y":420.0},"$type":"FlowCanvas.Nodes.SelectOnBool`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]","$id":"1"},{"_method":{"_baseInfo":"MaoUtility.Converse.Core.Components.EventBus|Send|System.Void","_paramsInfo":"System.String"},"_callable":true,"_position":{"x":520.0,"y":260.0},"$type":"FlowCanvas.Nodes.ReflectedMethodNodeWrapper","$id":"2"},{"_position":{"x":700.0,"y":260.0},"$type":"FlowCanvas.Macros.MacroOutputNode","$id":"3"},{"_method":{"_baseInfo":"MaoUtility.Converse.Core.ConversePanel|GetCast|MaoUtility.Converse.Core.Components.EventBus","_paramsInfo":"","_genericArgumentsInfo":"MaoUtility.Converse.Core.Components.EventBus"},"_verboseLevel":0,"_position":{"x":280.0,"y":340.0},"$type":"FlowCanvas.Nodes.ReflectedMethodNodeWrapper","$id":"4"}],"connections":[{"_sourcePortName":"5fbc2a07-e457-4716-ac8e-fe09bc174808","_targetPortName":"Condition","_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"FlowCanvas.BinderConnection`1[[System.Boolean,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},{"_sourcePortName":"6c6df9dc-18c1-4c6a-b079-83da833b8ba0","_targetPortName":"ConversePanel","_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"4"},"$type":"FlowCanvas.BinderConnection`1[[MaoUtility.Converse.Core.ConversePanel,
+    Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},{"_sourcePortName":"2dd90731-f2cd-4b06-be09-633ecbc0f6eb","_targetPortName":"
+    ","_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"2"},"$type":"FlowCanvas.BinderConnection"},{"_sourcePortName":"Value","_targetPortName":"nameEvent","_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"FlowCanvas.BinderConnection`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},{"_sourcePortName":"
+    ","_targetPortName":"395102d2-3cd2-4046-afdb-c4aa703782aa","_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"3"},"$type":"FlowCanvas.BinderConnection"},{"_sourcePortName":"Value","_targetPortName":"EventBus","_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"2"},"$type":"FlowCanvas.BinderConnection`1[[MaoUtility.Converse.Core.Components.EventBus,
+    Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}],"canvasGroups":[],"localBlackboard":{"_variables":{}},"derivedData":{"inputDefinitions":[{"_ID":"2dd90731-f2cd-4b06-be09-633ecbc0f6eb","_name":"Flow
+    Input","_type":"FlowCanvas.Flow"},{"_ID":"6c6df9dc-18c1-4c6a-b079-83da833b8ba0","_name":"Button","_type":"MaoUtility.Converse.Core.ConversePanel"},{"_ID":"5fbc2a07-e457-4716-ac8e-fe09bc174808","_name":"IsActive","_type":"System.Boolean"}],"outputDefinitions":[{"_ID":"395102d2-3cd2-4046-afdb-c4aa703782aa","_name":"Flow
+    Output","_type":"FlowCanvas.Flow"}],"$type":"FlowCanvas.Macros.Macro+DerivedSerializationData"}}'
+  _objectReferences: []
+  _graphSource:
+    _version: 3.25
+    _category: 
+    _comments: 
+    _translation: {x: 0, y: 0}
+    _zoomFactor: 1
+  _haltSerialization: 0
+  inputDefinitions:
+  - _ID: 2dd90731-f2cd-4b06-be09-633ecbc0f6eb
+    _name: Flow Input
+    _type: FlowCanvas.Flow
+  - _ID: 6c6df9dc-18c1-4c6a-b079-83da833b8ba0
+    _name: Button
+    _type: MaoUtility.Converse.Core.ConversePanel
+  - _ID: 5fbc2a07-e457-4716-ac8e-fe09bc174808
+    _name: IsActive
+    _type: System.Boolean
+  outputDefinitions:
+  - _ID: 395102d2-3cd2-4046-afdb-c4aa703782aa
+    _name: Flow Output
+    _type: FlowCanvas.Flow

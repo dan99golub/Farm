@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Icon" style="flex-grow: 1; width: 70px; height: auto; justify-content: space-between; align-items: center; min-height: 70px; max-height: 110px;">
+        <ui:VisualElement name="Pic" style="background-image: url(&apos;/Assets/4 - Source/DigitalKonstrukt/Textures/proto_interaction3.png&apos;); width: 64px; height: 64px;" />
+        <ui:Label text="fgfdgdff &#10;ffffffff" display-tooltip-when-elided="true" name="Name" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; -unity-text-align: upper-center;" />
+    </ui:VisualElement>
+    <ui:Slider picking-mode="Ignore" label="Slider" value="42" high-value="100" />
+</ui:UXML>
